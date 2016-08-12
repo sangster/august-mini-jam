@@ -1,0 +1,7 @@
+I"\(function() {
+  test(function() {
+    return console.puts("hi");
+  });
+
+}).call(this);
+:ET
