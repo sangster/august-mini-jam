@@ -1,6 +1,10 @@
 window.bootState =
   preload: ->
     game.load.image('progressBar', '{{ "progress-bar.png" | asset_path }}')
+    game.load.image('bg', '{{ "bg.png" | asset_path }}')
+    game.load.image('top', '{{ "top-trap.png" | asset_path }}')
+    game.load.image('line', '{{ "line.png" | asset_path }}')
+    game.load.spritesheet('player', '{{ "player.png" | asset_path }}', 78, 96)
 
   create: ->
     game.stage.backgroundColor = '#3498db'
